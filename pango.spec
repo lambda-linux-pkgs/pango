@@ -34,7 +34,7 @@ BuildRequires: harfbuzz-devel >= %{harfbuzz_version}
 BuildRequires: gobject-introspection-devel
 BuildRequires: cairo-gobject-devel
 # Bootstrap requirements
-BuildRequires: gnome-common intltool gtk-doc
+BuildRequires: intltool gtk-doc
 
 %description
 Pango is a library for laying out and rendering of text, with an emphasis

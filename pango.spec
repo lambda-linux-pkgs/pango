@@ -37,6 +37,9 @@ BuildRequires: cairo-gobject-devel
 BuildRequires: intltool gtk-doc
 
 %description
+For package support, please visit
+https://github.com/lambda-linux-pkgs/%{name}/issues
+
 Pango is a library for laying out and rendering of text, with an emphasis
 on internationalization. Pango can be used anywhere that text layout is needed,
 though most of the work on Pango so far has been done in the context of the
@@ -58,6 +61,9 @@ Requires: fontconfig-devel >= %{fontconfig_version}
 Requires: cairo-devel >= %{cairo_version}
 
 %description devel
+For package support, please visit
+https://github.com/lambda-linux-pkgs/%{name}/issues
+
 The pango-devel package includes the header files and developer documentation
 for the pango package.
 

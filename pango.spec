@@ -1,3 +1,5 @@
+%define _buildid .1
+
 %global glib2_version 2.33.12
 %global pkgconfig_version 0.12
 %global freetype_version 2.1.5
@@ -10,7 +12,7 @@
 Summary: System for layout and rendering of internationalized text
 Name: pango
 Version: 1.34.1
-Release: 5%{?dist}
+Release: 5%{?_buildid}%{?dist}
 License: LGPLv2+
 Group: System Environment/Libraries
 #VCS: git:git://git.gnome.org/pango

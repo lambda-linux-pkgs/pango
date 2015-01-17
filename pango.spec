@@ -148,6 +148,12 @@ fi
 
 
 %changelog
+* Sat Jan 17 2015 Rajiv M Ranganath <rajiv.ranganath@atihita.com> 1.34.1-5
+- Adapt for AL/LL
+- Add package support URL
+- Update spec file
+- Import source package SL7/pango-1.34.1-5.el7
+
 * Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.34.1-5
 - Mass rebuild 2014-01-24
 
